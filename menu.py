@@ -17,6 +17,7 @@ while opcion != 0:
             from tateti import iniciar_juego
         elif opcion == 2:
             print("🎉 Iniciando Buscamina...")
+            from Buscamina import iniciar_juego
         elif opcion == 3:
             print("🎉 Iniciando Snake...")
         elif opcion == 4:
