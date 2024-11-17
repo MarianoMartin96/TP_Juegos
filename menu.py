@@ -20,6 +20,7 @@ while opcion != 0:
             from Buscamina import iniciar_juego
         elif opcion == 3:
             print("🎉 Iniciando Snake...")
+            from snake import iniciar_juego
         elif opcion == 4:
             print("🎉 Iniciando Juego de palabras...")
             from JuegoDePalabras import iniciar_juego
